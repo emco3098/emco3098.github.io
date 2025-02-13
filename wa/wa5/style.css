@@ -1,0 +1,31 @@
+body{
+
+
+#bottomImage {
+    position: absolute; 
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+#middleImage {
+    position: absolute; 
+    left: 10em;
+    top: 20em;
+    z-index: 1;
+}
+
+#topImage {
+    position: absolute; 
+    left: 30em;
+    top: 30em;
+    z-index: 2;
+}
+
+#insteadOfZIndex0{
+    background-image: url('top.png'), url('bottom-image.png');
+    background-position: center center, center top, center bottom;
+    background-repeat: no-repeat;
+}
+
+}
