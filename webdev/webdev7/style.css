@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    height: 100vh;
+  }
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+  .c0 { fill: peru }
+  .c1 { fill: blueviolet }
+  .c2 { fill: olivedrab }
+  .c3 { fill: orange }
+  .c4 { fill: blue }
+  .c5 { fill: palevioletred }
+  .c6 { fill: palegreen }
+  .f15 { filter: url(#f15) }
+  .f10 { filter: url(#f10) }
+  
