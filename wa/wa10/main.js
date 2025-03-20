@@ -15,7 +15,7 @@ let insertX = ["Winnie the cat", "Prime Time", "Chappel Roan"]
 
 let insertY = ["the St Louis Arch", "Disneyland", "Canada"]
 
-let insertZ = ["blew up", "fell asleep in class", "grew wings and flew away"]
+let insertZ = ["blew up in space", "fell asleep in class", "grew wings and flew away"]
 
 
 
