@@ -18,14 +18,14 @@
   /* SUN */
   @keyframes sun-spin {
     to {
-      rotate: .25turn;
+      rotate: 10turn;
     }  
   }
   
   /* mask icon */
   [data-icon="sun"] {
     /* size and color */
-    inline-size: 200px;
+    inline-size: 400px;
     --_icon: url(https://api.iconify.design/material-symbols:sunny-rounded.svg);
     background: linear-gradient(
       to bottom right in oklab,
@@ -51,12 +51,12 @@
     animation-timeline: scroll();
     
     > * {
-      translate: 200px 0;
+      translate: 500px 0;
     }
   }
   
   [data-icon="earth"] {
-    inline-size: 100px;
+    inline-size: 50px;
     
     --_icon: url(https://api.iconify.design/material-symbols:globe.svg);
     
@@ -80,12 +80,12 @@
     animation-timeline: scroll();
     
     > * {
-      translate: 75px 0;
+      translate: 50px 0;
     }
   }
   
   [data-icon="moon"] {
-    inline-size: 25px;
+    inline-size: 15px;
       
     --_icon: url(https://api.iconify.design/material-symbols:dark-mode.svg);
     
@@ -95,9 +95,6 @@
       oklch(85% 10% 210)
     );
   }
-  
-  
-  
   
   
   
