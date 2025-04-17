@@ -12,6 +12,8 @@
     color: black;
   }
   
+
+
   div {
     display: grid;
     grid-template-columns: repeat(6, calc(var(--circle-size) / 2));
