@@ -1,0 +1,69 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(217, 103, 122);
+}
+
+
+button {
+    padding: 20px 30px;
+    font-size: 16px;
+    background-color: #7a2c46;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #65243a;
+}
+
+
+#phoneNumber {
+    font-size: 60px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+canvas {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: -1; 
+    background-color: rgb(217, 103, 122); 
+}
+
+
+#yesorno {
+    margin-top: 40px;
+}
+
+#isthisyournumber {
+    font-size: 20px; 
+    font-weight: bold;
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+#thumbsdownpic img {
+    width: 500px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+#happypic img {
+    width: 500px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+
